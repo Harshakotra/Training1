@@ -7,8 +7,10 @@ class Bbb {
 	// for 2 types we can form 2 diff combinations
 	public static long BracketCombinations(int num) {
 		// code goes here
-		long valt = fact(num * 2) / (fact(num) * fact(num + 1));
-		return valt;
+
+		long vale = fact(num * 2) / (fact(num) * fact(num + 1));
+		return vale;
+
 	}
 
 	public static long fact(int x) {
